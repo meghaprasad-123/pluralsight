@@ -1,0 +1,15 @@
+#r1{
+    background-color:darkslateblue;
+    color: white;
+}
+#p1{
+    width: 550px;
+}
+.card{
+    height: 500px;
+}
+@media(max-width:420px){
+    #p1{
+        width: 290px;
+    }
+}

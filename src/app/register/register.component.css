@@ -1,0 +1,18 @@
+
+#r1{
+    background: rgb(199, 37, 177);
+    width: 300px;
+    margin-top: 50px;
+}
+.b1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    padding-top: 10px;
+}
+@media (max-width:420px){
+    #r1{
+        width:240px;
+    }
+}

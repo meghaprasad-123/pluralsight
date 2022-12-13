@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+.navbar-nav .nav-link.active-link{
+    color: rgb(136, 25, 239);;
+    font-weight: bold;
+}
+.nav-link{
+    color:rgb(181, 134, 225);
+}
+#nav1{
+    position: sticky;
+    background-color:#242145;
+    
+}
+#hed1{
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    font-size: 53px;
+    color: rgb(181, 134, 225);
+}
+button{
+    background-color: #242145;
+    color: beige;
+}

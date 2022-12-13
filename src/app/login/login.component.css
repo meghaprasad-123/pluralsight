@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+#l1{
+    width: 400px;
+    background: pink;
+}
+img{
+    width: 350px;
+    align-items: center;
+    height: 170px;
+}
+h3{
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 15px;
+    text-align: center;
+    padding-top: 10px;
+}
+.b1{
+    text-align: center;
+}
+button{
+    border-radius: 7px;
+    padding: 6px;
+    background: rgb(116, 27, 88);
+    color: white;
+}
+button:hover{
+    color:rgb(116, 27, 88) ;
+    background: white;
+}

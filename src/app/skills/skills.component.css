@@ -1,0 +1,38 @@
+#dp1{
+    text-align: center;
+    margin-top: 25px;
+}
+.dropdown-toggle{
+    width: 200px;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: indigo;
+    color: bisque;
+    font-size: larger;
+}
+#m1{
+    width: 550px;
+}
+#m2{
+    width: 550px;
+}
+#m3{
+    width: 550px;
+}
+#m4{
+    width: 640px;
+}
+@media(max-width:420px){
+    #m1{
+        width: 300px;
+    }
+    #m2{
+        width:300px ;
+    }
+    #m3{
+        width: 300px;
+    }
+    #m4{
+        width: 330px;
+    }
+}

@@ -1,0 +1,41 @@
+<div class="row">
+    <div id="r1" class="container ">
+        <h3>Register Here</h3>
+        <form [formGroup]="registerForm" action="" (ngSubmit)="register()">
+            <div class="mt-2 mb-2">
+                <label for="">Username</label>
+                <input formControlName="user" type="text" class="form-control">
+            </div>
+            <div class="text-warning" *ngIf="this.registerForm.get('user')?.errors && this.registerForm.get('user')?.touched">Required</div>
+
+            
+            <div class="mt-2 mb-2">
+                <label for="">Mail id</label>
+                <input formControlName="mail" type="email" class="form-control">
+            </div>
+            <div class="text-warning" *ngIf="this.registerForm.get('mail')?.errors && this.registerForm.get('mail')?.touched">Invalid mail id</div>
+
+
+            <div class="mt-2 mb-2">
+                <label for="">Mobile number</label>
+                <input formControlName="num" type="text" class="form-control">
+            </div>
+            <div class="text-warning" *ngIf="this.registerForm.get('num')?.errors && this.registerForm.get('num')?.touched">Invalid number</div>
+
+
+            <div class="mt- mb-2">
+                <label for="">Set password</label>
+                <input formControlName="psd" type="password" class="form-control">
+            </div>
+            <br>
+            <div class="text-warning" *ngIf="this.registerForm.get('psd')?.errors && this.registerForm.get('psd')?.touched">Invalid</div>
+
+
+            <div class="b1">
+                <button  type="submit" class="btn1"
+                style="border-radius: 8px; padding: 4px; background-color: #51efe4;border: none;">
+                    Register</button>
+            </div>
+        </form><br>
+    </div>
+</div>

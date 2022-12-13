@@ -1,0 +1,26 @@
+<div class="container text-center">
+    <img src="./../../assets/logo1.jpg" alt="">
+</div>
+<div class="row">
+    <div id="l1" class="container border border-dark">
+        <h3>Login to your Career</h3>
+        <form [formGroup]="loginForm" action="" (ngSubmit)="login()">
+            <input formControlName="mail" type="email" placeholder="Enter email id" class="form-control">
+            <div class="text-danger" *ngIf="this.loginForm.get('mail')?.errors && this.loginForm.get('mail')?.touched">Incorrect</div><br>
+
+            <input formControlName="num" type="text" placeholder="Mobile number" class="form-control">
+            <div class="text-danger" *ngIf="this.loginForm.get('num')?.errors && this.loginForm.get('num')?.touched">Incorrect</div>
+            <br>
+
+            <input formControlName="psd" type="password" placeholder="Password" class="form-control">
+            <div class="text-danger" *ngIf="this.loginForm.get('psd')?.errors && this.loginForm.get('psd')?.touched">Incorrect</div>
+            <br>
+
+            <div class="b1">
+                <button type="submit">LOGIN</button>
+            </div>
+        </form><br>
+        <p style="text-align: center;">Don't have an account?
+            <a style="text-decoration:none ;" routerLink="register">&nbsp; SignUp</a></p>
+    </div>
+</div>

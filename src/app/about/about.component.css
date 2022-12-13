@@ -1,0 +1,28 @@
+#hd1{
+    height: 500px;
+    color: azure;
+    margin-top: 20px;
+    background-image: url(./../../assets/bg2.jpg);
+    background-position: center;
+}
+h1{
+    padding-top: 50px;
+    font-weight: bold;
+}
+img{
+    width: 648px;
+}
+#abt{
+    background: black;
+    color: white;
+    padding-left: 50px;
+}
+ul{
+    padding-top: 20px;
+    font-weight: bold;
+}
+@media(max-width:1168px){
+    img{
+        width: 300px;
+    }
+}
